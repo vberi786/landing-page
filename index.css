@@ -1,0 +1,136 @@
+
+    body{
+      background-image: url('https://wallpaperaccess.com/full/1567665.png');
+      margin: 0;padding: 0; 
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+    .img1{
+        height: 35px;
+        width: 35px;
+        display: inline-block;
+
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        margin: 25px;
+        justify-content: space-between;
+        width: 95vw;
+}
+.a{
+  position: relative;
+  text-decoration: none;
+  color: rgb(216, 235, 251);
+  font-size: 25px;
+  letter-spacing: 0.5px;
+}
+.a::after{
+  content: "";
+  position: absolute;
+  background-color: rgb(212, 207, 200);
+  height: 3px;
+  color: azure;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s ;
+}
+.a:hover::after{
+  background-color: rgb(100, 235, 201);
+  content: '';
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  bottom: -10px;
+  color: azure;
+  transform: 0.4s;
+}
+
+.a:hover{
+  color: white;
+}
+li{
+  display: inline;
+  text-decoration: none;
+  margin: 10px;
+}
+ul{
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+.left-nav{
+  display: flex;
+  margin: 0;
+  justify-content: left;
+  padding: 0;
+}
+.my-card{
+  margin-top: 5rem;
+  background: none;
+  color: white;
+  border: none;
+}
+.fa:hover{
+  opacity: 0.7;
+  background-color: white;
+}
+.fa-facebook{
+  background: #77b4e2;
+  color: white;
+}
+
+.fa-twitter {
+  background: #3d9ee9e1;
+  color: white;
+}
+.fa-whatsapp{
+  background: #7fea5c;
+  color: white;
+}
+.fa-instagram{
+  background: #f27979;
+  color: white;
+}
+.fa {
+  padding: 10px; 
+  font-size: 100px;
+  margin: 10px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+
+.zoom {
+  display: inline-block;
+  padding: 50px;
+  transition: transform .14s; /* Animation */
+  width: 30rem;
+  height: 30rem;
+  margin-top: 4rem;
+  padding: 5px;
+  border-radius: 50%;
+  background:  linear-gradient(rgb(1, 255, 192),rgb(95, 246, 49),rgb(1, 255, 192),#ed5757,rgb(1, 255, 192));
+  background-attachment: fixed;
+  
+}
+
+.zoom:hover {
+  transform: scale(1.1); 
+}
+
+main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.macron{
+    margin-left: 0;
+}
